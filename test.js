@@ -1,0 +1,3 @@
+switch(foo){
+   case : break;
+}
