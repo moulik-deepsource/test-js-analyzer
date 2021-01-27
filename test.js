@@ -1,4 +1,4 @@
 switch(foo){
-   case : foo(); break ;
+   case g: foo(); break ;
    default : break;
 }
