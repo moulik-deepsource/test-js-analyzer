@@ -15,3 +15,4 @@ enabled = true
   [analyzers.meta]
   module_system = "commonjs"
   environment = ["nodejs"]
+  dialect = "typescript"
