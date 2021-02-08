@@ -1,0 +1,5 @@
+ <template>
+  <a :href="$config.zoomConfigurationUrl" class="btn-footer" v-if="!isZoomConfigured" >
+    foo
+  </a>
+</template>
