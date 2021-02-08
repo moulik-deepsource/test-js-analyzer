@@ -13,6 +13,8 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
+  plugins = ["vue"]
+  style_guide = "airbnb"
   module_system = "commonjs"
   environment = ["nodejs"]
   dialect = "typescript"
