@@ -1,8 +1,8 @@
 <template>
   <a
+    v-if="!isZoomConfigured"
     :href="$config.zoomConfigurationUrl"
     class="btn-footer"
-    v-if="!isZoomConfigured"
   >
     foo
   </a>
