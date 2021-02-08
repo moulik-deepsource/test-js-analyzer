@@ -32,8 +32,8 @@
           >
             <template v-for="preference in issuePreferences">
               <div
-                class="p-3 cursor-pointer"
                 :key="preference.name"
+                class="p-3 cursor-pointer"
                 :class="preference.isChecked ? 'bg-ink-300' : 'bg-ink-400'"
               >
                 <z-card>
@@ -48,8 +48,8 @@
                         preference.label
                       }}</span>
                       <z-checkbox
-                        :value="preference.name"
                         v-model="preference.isChecked"
+                        :value="preference.name"
                       />
                     </div>
                   </template>
@@ -75,7 +75,7 @@
       <!-- Issue Preferences Snippets -->
       <div class="sm:w-9/12">
         <template v-for="issue in issueDetails">
-          <z-expandable :open="issue.isOpen" :key="issue.name">
+          <z-expandable :key="issue.name" :open="issue.isOpen">
             <template slot="header">
               <p>
                 <z-icon
