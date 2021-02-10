@@ -1,4 +1,7 @@
-switch(foo){
-   case g: foo(); break ;
-   default : break;
+switch (foo) {
+  case g:
+    foo();
+    break;
+  default:
+    break;
 }
