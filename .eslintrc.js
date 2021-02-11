@@ -1,6 +1,6 @@
 module.exports = {
       parser: "@typescript-eslint/parser".
-      rules: [
+      rules: {
          "indent": ["error", 2, { "SwitchCase": 1 }]
-      ]
+   }
 }
