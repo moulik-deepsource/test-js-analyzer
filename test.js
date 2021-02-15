@@ -1,6 +1,6 @@
-switch(a){
-case "a":
+switch (a) {
+  case "a":
     break;
-case "b":
+  case "b":
     break;
 }
