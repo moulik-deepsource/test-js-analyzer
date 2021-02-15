@@ -1,1 +1,1 @@
-type T = { x: number; };
+type T = { x: number };
