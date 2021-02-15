@@ -4,3 +4,8 @@ case "a":
 case "b":
     break;
 }
+
+
+if (color == "blue") {
+
+}
