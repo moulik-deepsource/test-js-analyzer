@@ -1,7 +1,7 @@
 import foo from 'foo';
 import bar from 'foo';
 
-type T = { x: number; };
+type T = {x: number;};
 
 f.b();
 
