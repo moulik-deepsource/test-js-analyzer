@@ -23,3 +23,9 @@ type T =
   | null
   | string
   | any;
+
+
+var location = {
+    city: "NYC",
+    Country: "USA",
+};
