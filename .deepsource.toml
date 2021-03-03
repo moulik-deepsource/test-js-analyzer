@@ -10,6 +10,6 @@ enabled = true
 
   [analyzers.meta]
   plugins = ["react"]
-  style_guide = "standard"
+  style_guide = "airbnb"
   environment = ["nodejs", "browser", "jest", "mongo"]
   dialect = "typescript"
