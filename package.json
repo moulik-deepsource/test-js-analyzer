@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:aniketh-deepsource/test-js-analyzer.git",
   "author": "aniketh-deepsource <aniketh@deepsource.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-semistandard": "^15.0.1"
+  }
 }
